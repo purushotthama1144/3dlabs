@@ -1,0 +1,9 @@
+<f:if condition="{data.flexform_bgimg}">
+	<f:then>
+		<div class="section-bg bg-img" style="background-image: url(uploads/pics/{data.flexform_bgimg})"></div>
+	</f:then>
+	<f:else>
+		<div class="section-bg" style="background-color: {data.flexform_bgcolor}"></div>
+	</f:else>
+</f:if>
+{data.tx_gridelements_view_column_0->f:format.raw()}

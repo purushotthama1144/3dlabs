@@ -1,0 +1,10 @@
+<div class="{f:if(condition:'{data.frame_class}', then:'frame-{data.frame_class}')} {f:if(condition:'{data.space_before_class}', then:'frame-space-before-{data.space_before_class}')} {f:if(condition:'{data.space_after_class}', then:'frame-space-after-{data.space_after_class}')}">
+	<div class="two-col clearfix">
+		<div class="col-left width-50">
+			{data.tx_gridelements_view_column_0->f:format.raw()}
+		</div>
+		<div class="col-right width-50">
+			{data.tx_gridelements_view_column_1->f:format.raw()}
+		</div>
+	</div>
+</div>

@@ -1,0 +1,7 @@
+<div class="container h-100">
+	<div class="content-wrap {data.flexform_textcolor} {data.flexform_contentalignment} h-100">
+		<div class="content-wrap-inner">
+			{data.tx_gridelements_view_column_0->f:format.raw()}
+		</div>
+	</div>
+</div>

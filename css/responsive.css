@@ -1,0 +1,36 @@
+@media screen and (max-width: 1024px) {
+	.play-btn {
+		display: none !important;
+	}
+	.play-btn-responsive {
+		display: block !important;
+	}
+	
+}
+
+@media screen and (max-width: 851px) {
+	h1.view {
+		font-size: 34px;
+	}
+	h2 {
+		font-size: 52px;
+	}
+	#logo {
+		width: 100px;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	
+	.two-col .col-left ,  .two-col .col-right{
+		max-width: 100%;
+		padding: 0;
+	}
+	.img-with-text h2{
+		font-size:80px;
+	}
+}
+
+
+
+

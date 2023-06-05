@@ -1,0 +1,8 @@
+<div class="two-col clearfix">
+	<div class="col-left width-50">
+		{data.tx_gridelements_view_column_0->f:format.raw()}
+	</div>
+	<div class="col-right width-50">
+		{data.tx_gridelements_view_column_1->f:format.raw()}
+	</div>
+</div>
